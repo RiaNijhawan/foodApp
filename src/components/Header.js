@@ -1,5 +1,6 @@
 import React from "react";
 import {LOGO_URL} from "../utils/constants";
+import { useState, useEffect } from "react";
 
 const navigationTabs = [
   { name: "Home", link: "/home" },
@@ -8,6 +9,13 @@ const navigationTabs = [
   { name: "Cart", link: "/cart" }
 ];
  const Header = () => {
+
+  const [btnName, setBtnName] = useState("Login");
+
+  useEffect(() =>{
+   console.log("useEffect is called");
+  },[btnName]); 
+
   return (
     <div className="header">
       <div className="logo-container">
@@ -21,6 +29,7 @@ const navigationTabs = [
           {navigationTabs.map(tab => (
             <li href={tab.link}>{tab.name}</li>
           ))}
+             <button className="login" onClick={()=> { return (btnName === "Login") ? setBtnName("Logout") : setBtnName("Login") }}>{btnName}</button>
         </ul>
       </div>
     </div>

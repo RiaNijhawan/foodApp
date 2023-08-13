@@ -63,3 +63,19 @@
     display: flex;
     flex-wrap: wrap;
 }  
+
+.shimmer-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.shimmer-card{
+  height : 200px;
+  width: 500px;
+  background-color:  #f0f0f0;
+  margin: 20px;
+}
+
+.filter {
+  display: flex;
+}

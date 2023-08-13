@@ -1,1589 +1,1668 @@
 const resList = [
     {
-        "type": "restaurant",
-        "data": {
-            "type": "F",
-            "id": "450915",
-            "name": "Third Wave Coffee",
-            "uuid": "6566b096-27fd-48a8-b089-5f1e5bcdffd2",
-            "city": "2",
-            "area": "DLF Phase 1",
-            "totalRatingsString": "1000+ ratings",
-            "cloudinaryImageId": "0dca660dbdf2e04f9b861c4426ffd41e",
-            "cuisines": [
-                "Beverages",
-                "Bakery",
-                "Continental"
-            ],
-            "tags": [],
-            "costForTwo": 40000,
-            "costForTwoString": "₹400 FOR TWO",
-            "deliveryTime": 28,
-            "minDeliveryTime": 28,
-            "maxDeliveryTime": 28,
-            "slaString": "28 MINS",
-            "lastMileTravel": 2.0999999046325684,
-            "slugs": {
-                "restaurant": "third-wave-coffee-roasters-dlf-phase-4-dlf-phase-4",
-                "city": "gurgaon"
-            },
-            "cityState": "2",
-            "address": "Shop No.19, Ground Floor, Platina Tower, Opp. Bristol Hotel, Sector-28, M.G. Road, Gurugram, Haryana, Gurgaon, Gurugram, Haryana, 122004",
-            "locality": "",
-            "parentId": 274773,
-            "unserviceable": false,
-            "veg": false,
-            "select": false,
-            "favorite": false,
-            "tradeCampaignHeaders": [],
-            "ribbon": [
-                {
-                    "type": "PROMOTED"
-                }
-            ],
-            "chain": [],
-            "feeDetails": {
-                "fees": [
-                    {
-                        "name": "distance",
-                        "fee": 3500,
-                        "message": ""
-                    },
-                    {
-                        "name": "time",
-                        "fee": 0,
-                        "message": ""
-                    },
-                    {
-                        "name": "special",
-                        "fee": 0,
-                        "message": ""
-                    }
-                ],
-                "totalFees": 3500,
-                "message": "",
-                "title": "Delivery Charge",
-                "amount": "3500",
-                "icon": ""
-            },
-            "availability": {
-                "opened": true,
-                "nextOpenMessage": "",
-                "nextCloseMessage": ""
-            },
-            "longDistanceEnabled": 0,
-            "rainMode": "NONE",
-            "thirdPartyAddress": false,
-            "thirdPartyVendor": "",
-            "adTrackingID": "cid=7156094~p=7~eid=00000188-f7e0-fa93-125b-059100dc0758~srvts=1687785896595",
-            "badges": {
-                "imageBased": [],
-                "textBased": [],
-                "textExtendedBadges": []
-            },
-            "lastMileTravelString": "2 kms",
-            "hasSurge": false,
-            "aggregatedDiscountInfoV3": {
-                "header": "40% OFF",
-                "subHeader": "UPTO ₹100",
-                "discountTag": "",
-                "headerTypeV2": 0
-            },
-            "sla": {
-                "restaurantId": "450915",
-                "deliveryTime": 28,
-                "minDeliveryTime": 28,
-                "maxDeliveryTime": 28,
-                "lastMileTravel": 2.0999999046325684,
-                "lastMileDistance": 0,
-                "serviceability": "SERVICEABLE",
-                "rainMode": "NONE",
-                "longDistance": "NOT_LONG_DISTANCE",
-                "preferentialService": false,
-                "iconType": "EMPTY"
-            },
-            "promoted": true,
-            "avgRating": "4.3",
-            "totalRatings": 1000,
-            "new": false
-        },
-        "subtype": "basic"
-    },
-    {
-        "type": "restaurant",
-        "data": {
-            "type": "F",
-            "id": "491142",
+        "info": {
+            "id": "254124",
             "name": "McDonald's",
-            "uuid": "e3e89fe2-3a5c-423c-8a31-5053bbe02d6a",
-            "city": "2",
-            "area": "Sector 43",
-            "totalRatingsString": "1000+ ratings",
             "cloudinaryImageId": "08eee882fda81b68e5c36e3a5d89d8c0",
+            "locality": "HR Rohtak",
+            "areaName": "Rohtak",
+            "costForTwo": "₹400 for two",
             "cuisines": [
                 "American"
             ],
-            "tags": [],
-            "costForTwo": 40000,
-            "costForTwoString": "₹400 FOR TWO",
-            "deliveryTime": 23,
-            "minDeliveryTime": 23,
-            "maxDeliveryTime": 23,
-            "slaString": "23 MINS",
-            "lastMileTravel": 1.399999976158142,
-            "slugs": {
-                "restaurant": "mcdonalds-global-foyer-dlf-phase-4",
-                "city": "gurgaon"
-            },
-            "cityState": "2",
-            "address": "Global Foyer Mall, Sector 43, Gurugram, Haryana 122022",
-            "locality": "GLOBAL FOYER",
-            "parentId": 630,
-            "unserviceable": false,
-            "veg": false,
-            "select": false,
-            "favorite": false,
-            "tradeCampaignHeaders": [],
-            "chain": [],
+            "avgRating": 4.1,
             "feeDetails": {
+                "restaurantId": "254124",
                 "fees": [
                     {
-                        "name": "distance",
-                        "fee": 3500,
-                        "message": ""
+                        "name": "BASE_DISTANCE",
+                        "fee": 2500
                     },
                     {
-                        "name": "time",
-                        "fee": 0,
-                        "message": ""
+                        "name": "BASE_TIME"
                     },
                     {
-                        "name": "special",
-                        "fee": 0,
-                        "message": ""
+                        "name": "ANCILLARY_SURGE_FEE"
                     }
                 ],
-                "totalFees": 3500,
-                "message": "",
-                "title": "Delivery Charge",
-                "amount": "3500",
-                "icon": ""
+                "totalFee": 2500
+            },
+            "parentId": "630",
+            "avgRatingString": "4.1",
+            "totalRatingsString": "1K+",
+            "sla": {
+                "deliveryTime": 19,
+                "lastMileTravel": 2.2,
+                "serviceability": "SERVICEABLE",
+                "slaString": "19 mins",
+                "lastMileTravelString": "2.2 km",
+                "iconType": "ICON_TYPE_EMPTY"
             },
             "availability": {
-                "opened": true,
-                "nextOpenMessage": "",
-                "nextCloseMessage": ""
+                "nextCloseTime": "2023-07-30 22:45:00",
+                "opened": true
             },
-            "longDistanceEnabled": 0,
-            "rainMode": "NONE",
-            "thirdPartyAddress": false,
-            "thirdPartyVendor": "",
-            "adTrackingID": "",
-            "badges": {
-                "imageBased": [],
-                "textBased": [],
-                "textExtendedBadges": []
+            "badges": {},
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
             },
-            "lastMileTravelString": "1.3 kms",
-            "hasSurge": false,
-            "sla": {
-                "restaurantId": "491142",
-                "deliveryTime": 23,
-                "minDeliveryTime": 23,
-                "maxDeliveryTime": 23,
-                "lastMileTravel": 1.399999976158142,
-                "lastMileDistance": 0,
-                "serviceability": "SERVICEABLE",
-                "rainMode": "NONE",
-                "longDistance": "NOT_LONG_DISTANCE",
-                "preferentialService": false,
-                "iconType": "EMPTY"
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
             },
-            "promoted": false,
-            "avgRating": "4.2",
-            "totalRatings": 1000,
-            "new": false
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
         },
-        "subtype": "basic"
+        "analytics": {},
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/mcdonalds-hr-rohtak-rohtak-254124",
+            "type": "WEBLINK"
+        }
     },
     {
-        "type": "restaurant",
-        "data": {
+        "info": {
+            "id": "511393",
+            "name": "Bakingo",
+            "cloudinaryImageId": "rjhlo8nfojcxhiwh8qmd",
+            "locality": "Sector 14",
+            "areaName": "Rohtak",
+            "costForTwo": "₹299 for two",
+            "cuisines": [
+                "Bakery",
+                "Desserts",
+                "Beverages",
+                "Snacks"
+            ],
+            "avgRating": 4.4,
+            "feeDetails": {
+                "restaurantId": "511393",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 2500
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 2500
+            },
+            "parentId": "3818",
+            "avgRatingString": "4.4",
+            "totalRatingsString": "500+",
+            "sla": {
+                "deliveryTime": 21,
+                "lastMileTravel": 3,
+                "serviceability": "SERVICEABLE",
+                "slaString": "21 mins",
+                "lastMileTravelString": "3.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-07-30 23:59:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
             "type": "F",
-            "id": "16209",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "₹125 OFF",
+                "subHeader": "ABOVE ₹249",
+                "discountTag": "FLAT DEAL"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/bakingo-sector-14-rohtak-rohtak-511393",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "339537",
+            "name": "Kwality Walls Frozen Dessert and Ice Cream Shop",
+            "cloudinaryImageId": "j69noh6rv9icj429tbgn",
+            "locality": "Uttam Vihar",
+            "areaName": "Rohtak",
+            "costForTwo": "₹300 for two",
+            "cuisines": [
+                "Desserts",
+                "Ice Cream",
+                "Ice Cream Cakes"
+            ],
+            "avgRating": 4.3,
+            "veg": true,
+            "feeDetails": {
+                "restaurantId": "339537",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 2500
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 2500
+            },
+            "parentId": "582",
+            "avgRatingString": "4.3",
+            "totalRatingsString": "500+",
+            "sla": {
+                "deliveryTime": 20,
+                "lastMileTravel": 2.6,
+                "serviceability": "SERVICEABLE",
+                "slaString": "20 mins",
+                "lastMileTravelString": "2.6 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-07-30 23:55:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "30% OFF",
+                "subHeader": "UPTO ₹75"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/kwality-walls-frozen-dessert-and-ice-cream-shop-uttam-vihar-rohtak-rohtak-339537",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "128780",
+            "name": "Pizza Wings",
+            "cloudinaryImageId": "a46a6aa00709f771fabb45c864a81b5e",
+            "locality": "Chanakyapuri Sheela Bypass",
+            "areaName": "Chankyapuri",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "Pizzas",
+                "Italian-American",
+                "Beverages",
+                "Continental",
+                "Pastas"
+            ],
+            "avgRating": 3.9,
+            "feeDetails": {
+                "restaurantId": "128780",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 2500
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 2500
+            },
+            "parentId": "159048",
+            "avgRatingString": "3.9",
+            "totalRatingsString": "5K+",
+            "sla": {
+                "deliveryTime": 25,
+                "lastMileTravel": 1.2,
+                "serviceability": "SERVICEABLE",
+                "slaString": "25 mins",
+                "lastMileTravelString": "1.2 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-07-30 23:59:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "₹125 OFF",
+                "subHeader": "ABOVE ₹199",
+                "discountTag": "FLAT DEAL"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/pizza-wings-chanakyapuri-sheela-bypass-chankyapuri-rohtak-128780",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "130298",
+            "name": "Grill Masters",
+            "cloudinaryImageId": "zt16stsvzmm4wjrxfosz",
+            "locality": "Subhash Nagar",
+            "areaName": "Rohtak Locality",
+            "costForTwo": "₹250 for two",
+            "cuisines": [
+                "Italian",
+                "Continental",
+                "Pizzas",
+                "Pastas"
+            ],
+            "avgRating": 3.7,
+            "feeDetails": {
+                "restaurantId": "130298",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 2500
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 2500
+            },
+            "parentId": "19537",
+            "avgRatingString": "3.7",
+            "totalRatingsString": "500+",
+            "sla": {
+                "deliveryTime": 19,
+                "lastMileTravel": 0.9,
+                "serviceability": "SERVICEABLE",
+                "slaString": "19 mins",
+                "lastMileTravelString": "0.9 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-07-30 22:15:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/grill-masters-subhash-nagar-rohtak-locality-rohtak-130298",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "364940",
+            "name": "The Good Bowl",
+            "cloudinaryImageId": "syqksq3fub5cdovmh1hq",
+            "locality": "Delhi Road",
+            "areaName": "Rohtak",
+            "costForTwo": "₹400 for two",
+            "cuisines": [
+                "Biryani",
+                "North Indian",
+                "Pastas",
+                "Punjabi",
+                "Desserts",
+                "Beverages"
+            ],
+            "avgRating": 4.2,
+            "feeDetails": {
+                "restaurantId": "364940",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 2500
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 2500
+            },
+            "parentId": "7918",
+            "avgRatingString": "4.2",
+            "totalRatingsString": "500+",
+            "sla": {
+                "deliveryTime": 18,
+                "lastMileTravel": 0.8,
+                "serviceability": "SERVICEABLE",
+                "slaString": "18 mins",
+                "lastMileTravelString": "0.8 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-07-30 23:59:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/the-good-bowl-delhi-road-rohtak-rohtak-364940",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "462282",
+            "name": "Gulab Sweets and Restaurant",
+            "cloudinaryImageId": "ufdkk4hduliv2cqnvqox",
+            "locality": "Sheela Bypaas Chowk",
+            "areaName": "Rohtak",
+            "costForTwo": "₹300 for two",
+            "cuisines": [
+                "South Indian",
+                "Chinese",
+                "Indian",
+                "North Indian",
+                "Beverages",
+                "Chaat",
+                "Pastas",
+                "Sweets",
+                "Street Food",
+                "Desserts"
+            ],
+            "avgRating": 4.1,
+            "feeDetails": {
+                "restaurantId": "462282",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 2500
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 2500
+            },
+            "parentId": "91305",
+            "avgRatingString": "4.1",
+            "totalRatingsString": "5K+",
+            "sla": {
+                "deliveryTime": 17,
+                "lastMileTravel": 1,
+                "serviceability": "SERVICEABLE",
+                "slaString": "17 mins",
+                "lastMileTravelString": "1.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-07-30 23:59:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "20% OFF",
+                "subHeader": "UPTO ₹50"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/gulab-sweets-and-restaurant-sheela-bypaas-chowk-rohtak-rohtak-462282",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "298334",
+            "name": "Domino's Pizza",
+            "cloudinaryImageId": "fkbcuj7re8yaghlzvk6g",
+            "locality": "JOP Square Mall",
+            "areaName": "Rohtak",
+            "costForTwo": "₹400 for two",
+            "cuisines": [
+                "Pizzas",
+                "Italian",
+                "Pastas",
+                "Desserts"
+            ],
+            "avgRating": 3.8,
+            "feeDetails": {
+                "restaurantId": "298334",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 2500
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 2500
+            },
+            "parentId": "2456",
+            "avgRatingString": "3.8",
+            "totalRatingsString": "500+",
+            "sla": {
+                "deliveryTime": 25,
+                "serviceability": "SERVICEABLE",
+                "slaString": "25 mins",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-07-30 23:59:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "₹125 OFF",
+                "subHeader": "ABOVE ₹999",
+                "discountTag": "FLAT DEAL"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/dominos-pizza-jop-square-mall-rohtak-rohtak-298334",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "136238",
+            "name": "Pizza Hut",
+            "cloudinaryImageId": "2b4f62d606d1b2bfba9ba9e5386fabb7",
+            "locality": "Delhi Road",
+            "areaName": "Rohtak",
+            "costForTwo": "₹350 for two",
+            "cuisines": [
+                "Pizzas"
+            ],
+            "avgRating": 3.6,
+            "feeDetails": {
+                "restaurantId": "136238",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 2500
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 2500
+            },
+            "parentId": "721",
+            "avgRatingString": "3.6",
+            "totalRatingsString": "1K+",
+            "sla": {
+                "deliveryTime": 21,
+                "lastMileTravel": 0.4,
+                "serviceability": "SERVICEABLE",
+                "slaString": "21 mins",
+                "lastMileTravelString": "0.4 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-07-30 23:59:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "60% OFF",
+                "subHeader": "UPTO ₹120"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/pizza-hut-delhi-road-rohtak-rohtak-136238",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "138431",
             "name": "Burger King",
-            "uuid": "12385181-0ddf-4398-ac3e-733a0c9ae066",
-            "city": "2",
-            "area": "Sector 29",
-            "totalRatingsString": "10000+ ratings",
             "cloudinaryImageId": "e33e1d3ba7d6b2bb0d45e1001b731fcf",
+            "locality": "Delhi Road",
+            "areaName": "Model Town",
+            "costForTwo": "₹250 for two",
             "cuisines": [
                 "Burgers",
                 "American"
             ],
-            "tags": [],
-            "costForTwo": 35000,
-            "costForTwoString": "₹350 FOR TWO",
-            "deliveryTime": 30,
-            "minDeliveryTime": 30,
-            "maxDeliveryTime": 30,
-            "slaString": "30 MINS",
-            "lastMileTravel": 3.5,
-            "slugs": {
-                "restaurant": "burger-king-huda-city-metro-station-huda-city",
-                "city": "gurgaon"
-            },
-            "cityState": "2",
-            "address": "Shop 2, Ground & Mezzanine Floor, Near Huda City Metro Station, Sector 29, Gurgaon",
-            "locality": "Huda City Center Metro Station",
-            "parentId": 166,
-            "unserviceable": false,
-            "veg": false,
-            "select": false,
-            "favorite": false,
-            "tradeCampaignHeaders": [],
-            "chain": [],
+            "avgRating": 4.1,
             "feeDetails": {
+                "restaurantId": "138431",
                 "fees": [
                     {
-                        "name": "distance",
-                        "fee": 4100,
-                        "message": ""
+                        "name": "BASE_DISTANCE",
+                        "fee": 2500
                     },
                     {
-                        "name": "time",
-                        "fee": 0,
-                        "message": ""
+                        "name": "BASE_TIME"
                     },
                     {
-                        "name": "special",
-                        "fee": 0,
-                        "message": ""
+                        "name": "ANCILLARY_SURGE_FEE"
                     }
                 ],
-                "totalFees": 4100,
-                "message": "",
-                "title": "Delivery Charge",
-                "amount": "4100",
-                "icon": ""
+                "totalFee": 2500
+            },
+            "parentId": "166",
+            "avgRatingString": "4.1",
+            "totalRatingsString": "5K+",
+            "sla": {
+                "deliveryTime": 20,
+                "lastMileTravel": 1.9,
+                "serviceability": "SERVICEABLE",
+                "slaString": "20 mins",
+                "lastMileTravelString": "1.9 km",
+                "iconType": "ICON_TYPE_EMPTY"
             },
             "availability": {
-                "opened": true,
-                "nextOpenMessage": "",
-                "nextCloseMessage": ""
+                "nextCloseTime": "2023-07-30 23:00:00",
+                "opened": true
             },
-            "longDistanceEnabled": 0,
-            "rainMode": "NONE",
-            "thirdPartyAddress": false,
-            "thirdPartyVendor": "",
-            "adTrackingID": "",
-            "badges": {
-                "imageBased": [],
-                "textBased": [],
-                "textExtendedBadges": []
-            },
-            "lastMileTravelString": "3.5 kms",
-            "hasSurge": false,
-            "sla": {
-                "restaurantId": "16209",
-                "deliveryTime": 30,
-                "minDeliveryTime": 30,
-                "maxDeliveryTime": 30,
-                "lastMileTravel": 3.5,
-                "lastMileDistance": 0,
-                "serviceability": "SERVICEABLE",
-                "rainMode": "NONE",
-                "longDistance": "NOT_LONG_DISTANCE",
-                "preferentialService": false,
-                "iconType": "EMPTY"
-            },
-            "promoted": false,
-            "avgRating": "4.3",
-            "totalRatings": 10000,
-            "new": false
-        },
-        "subtype": "basic"
-    },
-    {
-        "type": "restaurant",
-        "data": {
+            "badges": {},
+            "isOpen": true,
             "type": "F",
-            "id": "388352",
-            "name": "Pick A Tikka",
-            "uuid": "90b26848-4771-4b6b-9b69-e8c6449a94d6",
-            "city": "2",
-            "area": "Sector 54",
-            "totalRatingsString": "1000+ ratings",
-            "cloudinaryImageId": "qdxay9uldlsmvy7sdof8",
-            "cuisines": [
-                "Mughlai",
-                "North Indian",
-                "Biryani",
-                "Kebabs"
-            ],
-            "tags": [],
-            "costForTwo": 35000,
-            "costForTwoString": "₹350 FOR TWO",
-            "deliveryTime": 39,
-            "minDeliveryTime": 39,
-            "maxDeliveryTime": 39,
-            "slaString": "39 MINS",
-            "lastMileTravel": 4.800000190734863,
-            "slugs": {
-                "restaurant": "pick-a-tikka-jalvayu-towers-jalvayu-towers",
-                "city": "gurgaon"
-            },
-            "cityState": "2",
-            "address": "Unit No 218, Golf Course Road, Suncity, Sector 54, Gurugram, Haryana 122002, India",
-            "locality": "Golf Cours Road",
-            "parentId": 252614,
-            "unserviceable": false,
-            "veg": false,
-            "select": false,
-            "favorite": false,
-            "tradeCampaignHeaders": [],
-            "ribbon": [
-                {
-                    "type": "PROMOTED"
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
                 }
-            ],
-            "chain": [],
-            "feeDetails": {
-                "fees": [
-                    {
-                        "name": "distance",
-                        "fee": 4700,
-                        "message": ""
-                    },
-                    {
-                        "name": "time",
-                        "fee": 0,
-                        "message": ""
-                    },
-                    {
-                        "name": "special",
-                        "fee": 0,
-                        "message": ""
-                    }
-                ],
-                "totalFees": 4700,
-                "message": "",
-                "title": "Delivery Charge",
-                "amount": "4700",
-                "icon": ""
             },
-            "availability": {
-                "opened": true,
-                "nextOpenMessage": "",
-                "nextCloseMessage": ""
-            },
-            "longDistanceEnabled": 0,
-            "rainMode": "NONE",
-            "thirdPartyAddress": false,
-            "thirdPartyVendor": "",
-            "adTrackingID": "cid=6919794~p=4~eid=00000188-f7e0-fa93-125b-059000dc0447~srvts=1687785896595",
-            "badges": {
-                "imageBased": [],
-                "textBased": [],
-                "textExtendedBadges": []
-            },
-            "lastMileTravelString": "4.8 kms",
-            "hasSurge": false,
             "aggregatedDiscountInfoV3": {
-                "header": "₹150 OFF",
-                "subHeader": "ABOVE ₹249",
-                "discountTag": "FLAT DEAL",
-                "headerTypeV2": 0
+                "header": "60% OFF",
+                "subHeader": "UPTO ₹120"
             },
-            "sla": {
-                "restaurantId": "388352",
-                "deliveryTime": 39,
-                "minDeliveryTime": 39,
-                "maxDeliveryTime": 39,
-                "lastMileTravel": 4.800000190734863,
-                "lastMileDistance": 0,
-                "serviceability": "SERVICEABLE",
-                "rainMode": "NONE",
-                "longDistance": "NOT_LONG_DISTANCE",
-                "preferentialService": false,
-                "iconType": "EMPTY"
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
             },
-            "promoted": true,
-            "avgRating": "4.1",
-            "totalRatings": 1000,
-            "new": false
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
         },
-        "subtype": "basic"
+        "analytics": {},
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/burger-king-delhi-road-model-town-rohtak-138431",
+            "type": "WEBLINK"
+        }
     },
     {
-        "type": "restaurant",
-        "data": {
-            "type": "F",
-            "id": "1270",
-            "name": "Om Sweets & Snacks",
-            "uuid": "743eda04-1989-415f-b9c7-99debf303880",
-            "city": "2",
-            "area": "Sector 31",
-            "totalRatingsString": "10000+ ratings",
-            "cloudinaryImageId": "gxaxposqbfm7unxub8ub",
+        "info": {
+            "id": "187560",
+            "name": "Kake Da Dhaba",
+            "cloudinaryImageId": "r5hbwgi49axrhq4qawsy",
+            "locality": "Hisar Road",
+            "areaName": "Rohtak",
+            "costForTwo": "₹250 for two",
             "cuisines": [
-                "Sweets",
-                "North Indian",
-                "South Indian",
-                "Chinese",
-                "Snacks",
-                "Desserts",
-                "Bakery"
+                "North Indian"
             ],
-            "tags": [],
-            "costForTwo": 40000,
-            "costForTwoString": "₹400 FOR TWO",
-            "deliveryTime": 40,
-            "minDeliveryTime": 40,
-            "maxDeliveryTime": 40,
-            "slaString": "40 MINS",
-            "lastMileTravel": 5.800000190734863,
-            "slugs": {
-                "restaurant": "om-sweets-snacks-sector-31-sector-31-gurgaon-huda-city-zone-2",
-                "city": "gurgaon"
-            },
-            "cityState": "2",
-            "address": "SCO 17, Main Huda Market, Sector 31",
-            "locality": "Main Huda Market",
-            "parentId": 676,
-            "unserviceable": false,
-            "veg": true,
-            "select": false,
-            "favorite": false,
-            "tradeCampaignHeaders": [],
-            "chain": [],
+            "avgRating": 4,
             "feeDetails": {
+                "restaurantId": "187560",
                 "fees": [
                     {
-                        "name": "distance",
-                        "fee": 5300,
-                        "message": ""
+                        "name": "BASE_DISTANCE",
+                        "fee": 2500
                     },
                     {
-                        "name": "time",
-                        "fee": 0,
-                        "message": ""
+                        "name": "BASE_TIME"
                     },
                     {
-                        "name": "special",
-                        "fee": 0,
-                        "message": ""
+                        "name": "ANCILLARY_SURGE_FEE"
                     }
                 ],
-                "totalFees": 5300,
-                "message": "",
-                "title": "Delivery Charge",
-                "amount": "5300",
-                "icon": ""
+                "totalFee": 2500
+            },
+            "parentId": "13873",
+            "avgRatingString": "4.0",
+            "totalRatingsString": "100+",
+            "sla": {
+                "deliveryTime": 20,
+                "lastMileTravel": 2.6,
+                "serviceability": "SERVICEABLE",
+                "slaString": "20 mins",
+                "lastMileTravelString": "2.6 km",
+                "iconType": "ICON_TYPE_EMPTY"
             },
             "availability": {
-                "opened": true,
-                "nextOpenMessage": "",
-                "nextCloseMessage": ""
+                "nextCloseTime": "2023-07-30 23:00:00",
+                "opened": true
             },
-            "longDistanceEnabled": 0,
-            "rainMode": "NONE",
-            "thirdPartyAddress": false,
-            "thirdPartyVendor": "",
-            "adTrackingID": "",
-            "badges": {
-                "imageBased": [],
-                "textBased": [],
-                "textExtendedBadges": []
+            "badges": {},
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
             },
-            "lastMileTravelString": "5.8 kms",
-            "hasSurge": false,
-            "sla": {
-                "restaurantId": "1270",
-                "deliveryTime": 40,
-                "minDeliveryTime": 40,
-                "maxDeliveryTime": 40,
-                "lastMileTravel": 5.800000190734863,
-                "lastMileDistance": 0,
-                "serviceability": "SERVICEABLE",
-                "rainMode": "NONE",
-                "longDistance": "NOT_LONG_DISTANCE",
-                "preferentialService": false,
-                "iconType": "EMPTY"
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
             },
-            "promoted": false,
-            "avgRating": "4.4",
-            "totalRatings": 10000,
-            "new": false
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
         },
-        "subtype": "basic"
+        "analytics": {},
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/kake-da-dhaba-hisar-road-rohtak-rohtak-187560",
+            "type": "WEBLINK"
+        }
     },
     {
-        "type": "restaurant",
-        "data": {
-            "type": "F",
-            "id": "11668",
-            "name": "Pizza Hut",
-            "uuid": "b40cd821-6f27-452d-9ace-76c89f615280",
-            "city": "2",
-            "area": "DLF Phase 4",
-            "totalRatingsString": "5000+ ratings",
-            "cloudinaryImageId": "2b4f62d606d1b2bfba9ba9e5386fabb7",
+        "info": {
+            "id": "364939",
+            "name": "LunchBox - Meals and Thalis",
+            "cloudinaryImageId": "glrfxha5qcnww0qst1m7",
+            "locality": "Mansarover Colony",
+            "areaName": "Rohtak",
+            "costForTwo": "₹200 for two",
             "cuisines": [
+                "Biryani",
+                "North Indian",
+                "Punjabi",
+                "Healthy Food",
+                "Desserts",
+                "Beverages"
+            ],
+            "avgRating": 4.3,
+            "feeDetails": {
+                "restaurantId": "364939",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 2500
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 2500
+            },
+            "parentId": "4925",
+            "avgRatingString": "4.3",
+            "totalRatingsString": "100+",
+            "sla": {
+                "deliveryTime": 17,
+                "lastMileTravel": 0.8,
+                "serviceability": "SERVICEABLE",
+                "slaString": "17 mins",
+                "lastMileTravelString": "0.8 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-07-30 23:59:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "60% OFF",
+                "subHeader": "UPTO ₹120"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/lunchbox-meals-and-thalis-mansarover-colony-rohtak-rohtak-364939",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "130801",
+            "name": "Bunny's Kitchen",
+            "cloudinaryImageId": "qfqynvs1menrmjp66zgm",
+            "locality": "Chankyapuri",
+            "areaName": "Rohtak",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+                "Italian",
                 "Pizzas"
             ],
-            "tags": [],
-            "costForTwo": 35000,
-            "costForTwoString": "₹350 FOR TWO",
-            "deliveryTime": 24,
-            "minDeliveryTime": 24,
-            "maxDeliveryTime": 24,
-            "slaString": "24 MINS",
-            "lastMileTravel": 1.100000023841858,
-            "slugs": {
-                "restaurant": "pizza-hut-sushant-lok-dlf-phase-4",
-                "city": "gurgaon"
-            },
-            "cityState": "2",
-            "address": "Shop B139,B141, Ground floor super mart, Dlf phase4",
-            "locality": "Supermart 1",
-            "parentId": 721,
-            "unserviceable": false,
-            "veg": false,
-            "select": false,
-            "favorite": false,
-            "tradeCampaignHeaders": [],
-            "chain": [],
+            "avgRating": 3.8,
             "feeDetails": {
+                "restaurantId": "130801",
                 "fees": [
                     {
-                        "name": "distance",
-                        "fee": 3500,
-                        "message": ""
+                        "name": "BASE_DISTANCE",
+                        "fee": 2500
                     },
                     {
-                        "name": "time",
-                        "fee": 0,
-                        "message": ""
+                        "name": "BASE_TIME"
                     },
                     {
-                        "name": "special",
-                        "fee": 0,
-                        "message": ""
+                        "name": "ANCILLARY_SURGE_FEE"
                     }
                 ],
-                "totalFees": 3500,
-                "message": "",
-                "title": "Delivery Charge",
-                "amount": "3500",
-                "icon": ""
+                "totalFee": 2500
             },
-            "availability": {
-                "opened": true,
-                "nextOpenMessage": "",
-                "nextCloseMessage": ""
-            },
-            "longDistanceEnabled": 0,
-            "rainMode": "NONE",
-            "thirdPartyAddress": false,
-            "thirdPartyVendor": "",
-            "adTrackingID": "",
-            "badges": {
-                "imageBased": [],
-                "textBased": [],
-                "textExtendedBadges": []
-            },
-            "lastMileTravelString": "1.1 kms",
-            "hasSurge": false,
+            "parentId": "376280",
+            "avgRatingString": "3.8",
+            "totalRatingsString": "1K+",
             "sla": {
-                "restaurantId": "11668",
-                "deliveryTime": 24,
-                "minDeliveryTime": 24,
-                "maxDeliveryTime": 24,
-                "lastMileTravel": 1.100000023841858,
-                "lastMileDistance": 0,
+                "deliveryTime": 25,
+                "lastMileTravel": 1,
                 "serviceability": "SERVICEABLE",
-                "rainMode": "NONE",
-                "longDistance": "NOT_LONG_DISTANCE",
-                "preferentialService": false,
-                "iconType": "EMPTY"
-            },
-            "promoted": false,
-            "avgRating": "3.9",
-            "totalRatings": 5000,
-            "new": false
-        },
-        "subtype": "basic"
-    },
-    {
-        "type": "restaurant",
-        "data": {
-            "type": "F",
-            "id": "694916",
-            "name": "C.I.A Call It Asiian",
-            "uuid": "9d9900e4-806c-48e7-ae88-f5d607406a44",
-            "city": "2",
-            "area": "DLF Phase - 1",
-            "totalRatingsString": "20+ ratings",
-            "cloudinaryImageId": "0025294c22ae10d10d58ebed6d545198",
-            "cuisines": [
-                "Chinese",
-                "Thai"
-            ],
-            "tags": [],
-            "costForTwo": 25000,
-            "costForTwoString": "₹250 FOR TWO",
-            "deliveryTime": 38,
-            "minDeliveryTime": 38,
-            "maxDeliveryTime": 38,
-            "slaString": "38 MINS",
-            "lastMileTravel": 4,
-            "slugs": {
-                "restaurant": "c.i.a-call-it-asiian-manesar-gurugram-manesar-gurugram",
-                "city": "gurgaon"
-            },
-            "cityState": "2",
-            "address": "H - 16/6, FIRST FLOOR, UNIT NO. - 25, DLF PHASE - 1, Gurgaon, Gurugram, Haryana-122002",
-            "locality": "Block H",
-            "parentId": 299945,
-            "unserviceable": false,
-            "veg": false,
-            "select": false,
-            "favorite": false,
-            "tradeCampaignHeaders": [],
-            "ribbon": [
-                {
-                    "type": "PROMOTED"
-                }
-            ],
-            "chain": [],
-            "feeDetails": {
-                "fees": [
-                    {
-                        "name": "distance",
-                        "fee": 4700,
-                        "message": ""
-                    },
-                    {
-                        "name": "time",
-                        "fee": 0,
-                        "message": ""
-                    },
-                    {
-                        "name": "special",
-                        "fee": 0,
-                        "message": ""
-                    }
-                ],
-                "totalFees": 4700,
-                "message": "",
-                "title": "Delivery Charge",
-                "amount": "4700",
-                "icon": ""
+                "slaString": "25 mins",
+                "lastMileTravelString": "1.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
             },
             "availability": {
-                "opened": true,
-                "nextOpenMessage": "",
-                "nextCloseMessage": ""
+                "nextCloseTime": "2023-07-30 23:59:00",
+                "opened": true
             },
-            "longDistanceEnabled": 0,
-            "rainMode": "NONE",
-            "thirdPartyAddress": false,
-            "thirdPartyVendor": "",
-            "adTrackingID": "cid=7002537~p=10~eid=00000188-f7e0-fa93-125b-059200dc0a17~srvts=1687785896595",
-            "badges": {
-                "imageBased": [],
-                "textBased": [],
-                "textExtendedBadges": []
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
             },
-            "lastMileTravelString": "4 kms",
-            "hasSurge": false,
             "aggregatedDiscountInfoV3": {
                 "header": "₹125 OFF",
-                "subHeader": "ABOVE ₹249",
-                "discountTag": "FLAT DEAL",
-                "headerTypeV2": 0
+                "subHeader": "ABOVE ₹199",
+                "discountTag": "FLAT DEAL"
             },
-            "sla": {
-                "restaurantId": "694916",
-                "deliveryTime": 38,
-                "minDeliveryTime": 38,
-                "maxDeliveryTime": 38,
-                "lastMileTravel": 4,
-                "lastMileDistance": 0,
-                "serviceability": "SERVICEABLE",
-                "rainMode": "NONE",
-                "longDistance": "NOT_LONG_DISTANCE",
-                "preferentialService": false,
-                "iconType": "EMPTY"
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
             },
-            "promoted": true,
-            "avgRating": "4.5",
-            "totalRatings": 20,
-            "new": false
-        },
-        "subtype": "basic"
-    },
-    {
-        "type": "restaurant",
-        "data": {
-            "type": "F",
-            "id": "638349",
-            "name": "Yum Hum Bakers",
-            "uuid": "97706a65-362a-440e-a2c7-88bb6c46afaa",
-            "city": "2",
-            "area": "Sector 17",
-            "totalRatingsString": "500+ ratings",
-            "cloudinaryImageId": "ubljjem7umgi2tb7t4mu",
-            "cuisines": [
-                "Ice Cream Cakes",
-                "Desserts",
-                "Bakery"
-            ],
-            "tags": [],
-            "costForTwo": 19900,
-            "costForTwoString": "₹199 FOR TWO",
-            "deliveryTime": 34,
-            "minDeliveryTime": 34,
-            "maxDeliveryTime": 34,
-            "slaString": "34 MINS",
-            "lastMileTravel": 4.800000190734863,
-            "slugs": {
-                "restaurant": "yum-hum-bakers-sector-14-sector-14",
-                "city": "gurgaon"
-            },
-            "cityState": "2",
-            "address": "Mehrauli Gurugram road shukrali sector 17 Abhay Singh market, Shop no 1, nearby MDI college, Sukhrali, Sector 17, Gurugram, Haryana 122001, India",
-            "locality": "Abhay Singh Market",
-            "parentId": 385248,
-            "unserviceable": false,
-            "veg": true,
-            "select": false,
-            "favorite": false,
-            "tradeCampaignHeaders": [],
-            "chain": [],
-            "feeDetails": {
-                "fees": [
-                    {
-                        "name": "distance",
-                        "fee": 4700,
-                        "message": ""
-                    },
-                    {
-                        "name": "time",
-                        "fee": 0,
-                        "message": ""
-                    },
-                    {
-                        "name": "special",
-                        "fee": 0,
-                        "message": ""
-                    }
-                ],
-                "totalFees": 4700,
-                "message": "",
-                "title": "Delivery Charge",
-                "amount": "4700",
-                "icon": ""
-            },
-            "availability": {
-                "opened": true,
-                "nextOpenMessage": "",
-                "nextCloseMessage": ""
-            },
-            "longDistanceEnabled": 0,
-            "rainMode": "NONE",
-            "thirdPartyAddress": false,
-            "thirdPartyVendor": "",
-            "adTrackingID": "",
-            "badges": {
-                "imageBased": [],
-                "textBased": [],
-                "textExtendedBadges": []
-            },
-            "lastMileTravelString": "4.8 kms",
-            "hasSurge": false,
-            "aggregatedDiscountInfoV3": {
-                "header": "50% OFF",
-                "subHeader": "",
-                "discountTag": "FLAT DEAL",
-                "headerTypeV2": 0
-            },
-            "sla": {
-                "restaurantId": "638349",
-                "deliveryTime": 34,
-                "minDeliveryTime": 34,
-                "maxDeliveryTime": 34,
-                "lastMileTravel": 4.800000190734863,
-                "lastMileDistance": 0,
-                "serviceability": "SERVICEABLE",
-                "rainMode": "NONE",
-                "longDistance": "NOT_LONG_DISTANCE",
-                "preferentialService": false,
-                "iconType": "EMPTY"
-            },
-            "promoted": false,
-            "avgRating": "4.3",
-            "totalRatings": 500,
-            "new": false
-        },
-        "subtype": "basic"
-    },
-    {
-        "type": "restaurant",
-        "data": {
-            "type": "P",
-            "id": "35281",
-            "name": "Biryani By Kilo",
-            "uuid": "bae828fe-fe54-469f-a787-6cbce723e8bc",
-            "city": "2",
-            "area": "DLF Phase - 1",
-            "totalRatingsString": "5000+ ratings",
-            "cloudinaryImageId": "fr5v4nklgk1dqzwabrwr",
-            "cuisines": [
-                "Biryani",
-                "Hyderabadi",
-                "North Indian",
-                "Kebabs",
-                "Mughlai",
-                "Desserts"
-            ],
-            "tags": [],
-            "costForTwo": 70000,
-            "costForTwoString": "₹700 FOR TWO",
-            "deliveryTime": 46,
-            "minDeliveryTime": 46,
-            "maxDeliveryTime": 46,
-            "slaString": "46 MINS",
-            "lastMileTravel": 2.9000000953674316,
-            "slugs": {
-                "restaurant": "biryani-by-kilo-dlf-phase-4-dlf-phase-4",
-                "city": "gurgaon"
-            },
-            "cityState": "2",
-            "address": "H16/6, Behind Sri guru singh sabha gurudwara  DLF Phase 1",
-            "locality": "Block H",
-            "parentId": 130,
-            "unserviceable": false,
-            "veg": false,
-            "select": false,
-            "favorite": false,
-            "tradeCampaignHeaders": [],
-            "ribbon": [
-                {
-                    "type": "PROMOTED"
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
                 }
-            ],
-            "chain": [],
-            "feeDetails": {
-                "fees": [
-                    {
-                        "name": "distance",
-                        "fee": 3500,
-                        "message": ""
-                    },
-                    {
-                        "name": "time",
-                        "fee": 0,
-                        "message": ""
-                    },
-                    {
-                        "name": "special",
-                        "fee": 0,
-                        "message": ""
-                    }
-                ],
-                "totalFees": 3500,
-                "message": "",
-                "title": "Delivery Charge",
-                "amount": "3500",
-                "icon": ""
             },
-            "availability": {
-                "opened": true,
-                "nextOpenMessage": "",
-                "nextCloseMessage": ""
-            },
-            "longDistanceEnabled": 0,
-            "rainMode": "NONE",
-            "thirdPartyAddress": false,
-            "thirdPartyVendor": "",
-            "adTrackingID": "cid=7067324~p=13~eid=00000188-f7e0-fa93-125b-059300dc0d5b~srvts=1687785896595",
-            "badges": {
-                "imageBased": [],
-                "textBased": [],
-                "textExtendedBadges": []
-            },
-            "lastMileTravelString": "2.9 kms",
-            "hasSurge": false,
-            "aggregatedDiscountInfoV3": {
-                "header": "10% OFF",
-                "subHeader": "ABOVE ₹1000",
-                "discountTag": "FLAT DEAL",
-                "headerTypeV2": 0
-            },
-            "sla": {
-                "restaurantId": "35281",
-                "deliveryTime": 46,
-                "minDeliveryTime": 46,
-                "maxDeliveryTime": 46,
-                "lastMileTravel": 2.9000000953674316,
-                "lastMileDistance": 0,
-                "serviceability": "SERVICEABLE",
-                "rainMode": "NONE",
-                "longDistance": "NOT_LONG_DISTANCE",
-                "preferentialService": false,
-                "iconType": "EMPTY"
-            },
-            "promoted": true,
-            "avgRating": "4.2",
-            "totalRatings": 5000,
-            "new": false
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
         },
-        "subtype": "basic"
+        "analytics": {},
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/bunnys-kitchen-chankyapuri-rohtak-rohtak-130801",
+            "type": "WEBLINK"
+        }
     },
     {
-        "type": "restaurant",
-        "data": {
-            "type": "F",
-            "id": "304086",
-            "name": "Rominus Pizza & Burger",
-            "uuid": "f3b4932c-d03c-4ea2-8fe6-b5f5594cbfad",
-            "city": "2",
-            "area": "DLF Phase - 3",
-            "totalRatingsString": "5000+ ratings",
-            "cloudinaryImageId": "9ec9ffd900c24ef751e2f34ba3d2fd4b",
+        "info": {
+            "id": "128791",
+            "name": "Pizza Choice",
+            "cloudinaryImageId": "xheysiet81o1h8zofhdm",
+            "locality": "Jat College Road",
+            "areaName": "Rohtak",
+            "costForTwo": "₹200 for two",
             "cuisines": [
-                "Italian-American",
                 "Pizzas",
                 "Continental",
-                "Pastas",
-                "Snacks",
-                "Desserts",
-                "American"
+                "Italian"
             ],
-            "tags": [],
-            "costForTwo": 15000,
-            "costForTwoString": "₹150 FOR TWO",
-            "deliveryTime": 40,
-            "minDeliveryTime": 40,
-            "maxDeliveryTime": 40,
-            "slaString": "40 MINS",
-            "lastMileTravel": 3.9000000953674316,
-            "slugs": {
-                "restaurant": "rominus-burger-and-pizza-cyber-city-cyber-city",
-                "city": "gurgaon"
-            },
-            "cityState": "2",
-            "address": "U-77/5-6 DLF CITY PHASE 3, GURUGRAM, District - Gurgaon, STATE - Haryana-122009",
-            "locality": "Block U",
-            "parentId": 8387,
-            "unserviceable": false,
-            "veg": false,
-            "select": false,
-            "favorite": false,
-            "tradeCampaignHeaders": [],
-            "chain": [],
+            "avgRating": 3.7,
             "feeDetails": {
+                "restaurantId": "128791",
                 "fees": [
                     {
-                        "name": "distance",
-                        "fee": 4100,
-                        "message": ""
+                        "name": "BASE_DISTANCE",
+                        "fee": 2500
                     },
                     {
-                        "name": "time",
-                        "fee": 0,
-                        "message": ""
+                        "name": "BASE_TIME"
                     },
                     {
-                        "name": "special",
-                        "fee": 0,
-                        "message": ""
+                        "name": "ANCILLARY_SURGE_FEE"
                     }
                 ],
-                "totalFees": 4100,
-                "message": "",
-                "title": "Delivery Charge",
-                "amount": "4100",
-                "icon": ""
+                "totalFee": 2500
+            },
+            "parentId": "158448",
+            "avgRatingString": "3.7",
+            "totalRatingsString": "5K+",
+            "sla": {
+                "deliveryTime": 22,
+                "lastMileTravel": 2.3,
+                "serviceability": "SERVICEABLE",
+                "slaString": "22 mins",
+                "lastMileTravelString": "2.3 km",
+                "iconType": "ICON_TYPE_EMPTY"
             },
             "availability": {
-                "opened": true,
-                "nextOpenMessage": "",
-                "nextCloseMessage": ""
+                "nextCloseTime": "2023-07-30 23:59:00",
+                "opened": true
             },
-            "longDistanceEnabled": 0,
-            "rainMode": "NONE",
-            "thirdPartyAddress": false,
-            "thirdPartyVendor": "",
-            "adTrackingID": "",
-            "badges": {
-                "imageBased": [],
-                "textBased": [],
-                "textExtendedBadges": []
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
             },
-            "lastMileTravelString": "3.9 kms",
-            "hasSurge": false,
             "aggregatedDiscountInfoV3": {
-                "header": "₹150 OFF",
-                "subHeader": "ABOVE ₹499",
-                "discountTag": "FLAT DEAL",
-                "headerTypeV2": 0
+                "header": "₹125 OFF",
+                "subHeader": "ABOVE ₹199",
+                "discountTag": "FLAT DEAL"
             },
-            "sla": {
-                "restaurantId": "304086",
-                "deliveryTime": 40,
-                "minDeliveryTime": 40,
-                "maxDeliveryTime": 40,
-                "lastMileTravel": 3.9000000953674316,
-                "lastMileDistance": 0,
-                "serviceability": "SERVICEABLE",
-                "rainMode": "NONE",
-                "longDistance": "NOT_LONG_DISTANCE",
-                "preferentialService": false,
-                "iconType": "EMPTY"
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
             },
-            "promoted": false,
-            "avgRating": "4.0",
-            "totalRatings": 5000,
-            "new": false
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
         },
-        "subtype": "basic"
+        "analytics": {},
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/pizza-choice-jat-college-road-rohtak-rohtak-128791",
+            "type": "WEBLINK"
+        }
     },
     {
-        "type": "restaurant",
-        "data": {
-            "type": "F",
-            "id": "332231",
-            "name": "Tossin Pizza",
-            "uuid": "c332e826-4fbb-4c6a-9de6-c51d70154bcc",
-            "city": "2",
-            "area": "Sector 56",
-            "totalRatingsString": "1000+ ratings",
-            "cloudinaryImageId": "313485a665bd0f4958fdc14ead8afade",
+        "info": {
+            "id": "364936",
+            "name": "Oven Story Pizza",
+            "cloudinaryImageId": "ab979bffbd658e74de650a15ca0092a3",
+            "locality": "Delhi Road",
+            "areaName": "Rohtak",
+            "costForTwo": "₹400 for two",
             "cuisines": [
                 "Pizzas",
+                "Pastas",
                 "Italian",
-                "Beverages",
-                "Desserts"
+                "Desserts",
+                "Beverages"
             ],
-            "tags": [],
-            "costForTwo": 60000,
-            "costForTwoString": "₹600 FOR TWO",
-            "deliveryTime": 45,
-            "minDeliveryTime": 25,
-            "maxDeliveryTime": 35,
-            "slaString": "25-35 MINS",
-            "lastMileTravel": 5,
-            "slugs": {
-                "restaurant": "tossin-pizza-tossin_jalvayu-towers-tossin_jalvayu-towers",
-                "city": "gurgaon"
-            },
-            "cityState": "2",
-            "address": "SCO 32, 1st Floor, Sector 56, Gurgaon",
-            "locality": "Sector 56",
-            "parentId": 1778,
-            "unserviceable": false,
-            "veg": false,
-            "select": false,
-            "favorite": false,
-            "tradeCampaignHeaders": [],
-            "ribbon": [
-                {
-                    "type": "PROMOTED"
-                }
-            ],
-            "chain": [],
+            "avgRating": 4,
             "feeDetails": {
+                "restaurantId": "364936",
                 "fees": [
                     {
-                        "name": "distance",
-                        "fee": 0,
-                        "message": ""
+                        "name": "BASE_DISTANCE",
+                        "fee": 2500
                     },
                     {
-                        "name": "time",
-                        "fee": 0,
-                        "message": ""
+                        "name": "BASE_TIME"
                     },
                     {
-                        "name": "special",
-                        "fee": 0,
-                        "message": ""
+                        "name": "ANCILLARY_SURGE_FEE"
                     }
                 ],
-                "totalFees": 0,
-                "message": "",
-                "title": "Delivery Charge",
-                "amount": "0",
-                "icon": ""
+                "totalFee": 2500
             },
-            "availability": {
-                "opened": true,
-                "nextOpenMessage": "",
-                "nextCloseMessage": ""
-            },
-            "longDistanceEnabled": 0,
-            "rainMode": "NONE",
-            "thirdPartyAddress": false,
-            "thirdPartyVendor": "",
-            "adTrackingID": "cid=7018254~p=16~eid=00000188-f7e0-fa93-125b-059400dc100f~srvts=1687785896595",
-            "badges": {
-                "imageBased": [],
-                "textBased": [],
-                "textExtendedBadges": []
-            },
-            "lastMileTravelString": "5 kms",
-            "hasSurge": false,
-            "aggregatedDiscountInfoV3": {
-                "header": "10% OFF",
-                "subHeader": "UPTO ₹40",
-                "discountTag": "",
-                "headerTypeV2": 0
-            },
+            "parentId": "3534",
+            "avgRatingString": "4.0",
+            "totalRatingsString": "100+",
             "sla": {
-                "restaurantId": "332231",
-                "deliveryTime": 45,
-                "minDeliveryTime": 25,
-                "maxDeliveryTime": 35,
-                "lastMileTravel": 5,
-                "lastMileDistance": 0,
+                "deliveryTime": 22,
+                "lastMileTravel": 0.8,
                 "serviceability": "SERVICEABLE",
-                "rainMode": "NONE",
-                "longDistance": "NOT_LONG_DISTANCE",
-                "preferentialService": false,
-                "iconType": "EMPTY"
-            },
-            "promoted": true,
-            "avgRating": "4.3",
-            "totalRatings": 1000,
-            "new": false
-        },
-        "subtype": "basic"
-    },
-    {
-        "type": "restaurant",
-        "data": {
-            "type": "F",
-            "id": "32244",
-            "name": "Cake Maker",
-            "uuid": "10862cf6-66a1-4632-9bdc-030c21eb8bf6",
-            "city": "2",
-            "area": "Sector 14",
-            "totalRatingsString": "10000+ ratings",
-            "cloudinaryImageId": "djhblosy2rhyyh8a61bs",
-            "cuisines": [
-                "Bakery",
-                "Desserts"
-            ],
-            "tags": [],
-            "costForTwo": 19900,
-            "costForTwoString": "₹199 FOR TWO",
-            "deliveryTime": 38,
-            "minDeliveryTime": 38,
-            "maxDeliveryTime": 38,
-            "slaString": "38 MINS",
-            "lastMileTravel": 7.099999904632568,
-            "slugs": {
-                "restaurant": "cake-maker-sector-14-sector-14",
-                "city": "gurgaon"
-            },
-            "cityState": "2",
-            "address": "2322/3, Excel House, Old Delhi Road, Sector 14, Gurgaon",
-            "locality": "Old Delhi Road",
-            "parentId": 8113,
-            "unserviceable": false,
-            "veg": true,
-            "select": false,
-            "favorite": false,
-            "tradeCampaignHeaders": [],
-            "chain": [],
-            "feeDetails": {
-                "fees": [
-                    {
-                        "name": "distance",
-                        "fee": 6500,
-                        "message": ""
-                    },
-                    {
-                        "name": "time",
-                        "fee": 0,
-                        "message": ""
-                    },
-                    {
-                        "name": "special",
-                        "fee": 0,
-                        "message": ""
-                    }
-                ],
-                "totalFees": 6500,
-                "message": "",
-                "title": "Delivery Charge",
-                "amount": "6500",
-                "icon": ""
+                "slaString": "22 mins",
+                "lastMileTravelString": "0.8 km",
+                "iconType": "ICON_TYPE_EMPTY"
             },
             "availability": {
-                "opened": true,
-                "nextOpenMessage": "",
-                "nextCloseMessage": ""
+                "nextCloseTime": "2023-07-30 23:59:00",
+                "opened": true
             },
-            "longDistanceEnabled": 0,
-            "rainMode": "NONE",
-            "thirdPartyAddress": false,
-            "thirdPartyVendor": "",
-            "adTrackingID": "",
-            "badges": {
-                "imageBased": [],
-                "textBased": [],
-                "textExtendedBadges": []
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
             },
-            "lastMileTravelString": "7 kms",
-            "hasSurge": false,
             "aggregatedDiscountInfoV3": {
                 "header": "₹125 OFF",
                 "subHeader": "ABOVE ₹249",
-                "discountTag": "FLAT DEAL",
-                "headerTypeV2": 0
+                "discountTag": "FLAT DEAL"
             },
-            "sla": {
-                "restaurantId": "32244",
-                "deliveryTime": 38,
-                "minDeliveryTime": 38,
-                "maxDeliveryTime": 38,
-                "lastMileTravel": 7.099999904632568,
-                "lastMileDistance": 0,
-                "serviceability": "SERVICEABLE",
-                "rainMode": "NONE",
-                "longDistance": "NOT_LONG_DISTANCE",
-                "preferentialService": false,
-                "iconType": "EMPTY"
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
             },
-            "promoted": false,
-            "avgRating": "4.2",
-            "totalRatings": 10000,
-            "new": false
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
         },
-        "subtype": "basic"
+        "analytics": {},
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/oven-story-pizza-delhi-road-rohtak-rohtak-364936",
+            "type": "WEBLINK"
+        }
     },
     {
-        "type": "restaurant",
-        "data": {
-            "type": "F",
-            "id": "339520",
-            "name": "Khan Chacha",
-            "uuid": "be5caf98-20a3-46f2-afbb-c02b46264897",
-            "city": "2",
-            "area": "DLF Cyber City",
-            "totalRatingsString": "500+ ratings",
-            "cloudinaryImageId": "9e9a4f728e2bf1e69f325179d0addd45",
+        "info": {
+            "id": "363949",
+            "name": "Sardarji Malai Chaap Wale",
+            "cloudinaryImageId": "skxwses1zlc8cjw0risb",
+            "locality": "Jagdish Colony",
+            "areaName": "Rohtak",
+            "costForTwo": "₹250 for two",
             "cuisines": [
-                "Kebabs",
                 "North Indian",
-                "Mughlai"
+                "Snacks",
+                "Tandoor",
+                "Beverages"
             ],
-            "tags": [],
-            "costForTwo": 40000,
-            "costForTwoString": "₹400 FOR TWO",
-            "deliveryTime": 43,
-            "minDeliveryTime": 43,
-            "maxDeliveryTime": 43,
-            "slaString": "43 MINS",
-            "lastMileTravel": 4.900000095367432,
-            "slugs": {
-                "restaurant": "khan-chacha-cyber-city-cyber-city",
-                "city": "gurgaon"
-            },
-            "cityState": "2",
-            "address": "BUILDING NO 10 SHOP 2AB CYBERCITY CYBERHUB CYBER CITY, GURUGRAM , Gurgaon, Gurugram, Haryana, 122002",
-            "locality": "DLF Cyber Hub",
-            "parentId": 548,
-            "unserviceable": false,
-            "veg": false,
-            "select": false,
-            "favorite": false,
-            "tradeCampaignHeaders": [],
-            "ribbon": [
-                {
-                    "type": "PROMOTED"
-                }
-            ],
-            "chain": [],
+            "avgRating": 3.7,
             "feeDetails": {
+                "restaurantId": "363949",
                 "fees": [
                     {
-                        "name": "distance",
-                        "fee": 4700,
-                        "message": ""
+                        "name": "BASE_DISTANCE",
+                        "fee": 2500
                     },
                     {
-                        "name": "time",
-                        "fee": 0,
-                        "message": ""
+                        "name": "BASE_TIME"
                     },
                     {
-                        "name": "special",
-                        "fee": 0,
-                        "message": ""
+                        "name": "ANCILLARY_SURGE_FEE"
                     }
                 ],
-                "totalFees": 4700,
-                "message": "",
-                "title": "Delivery Charge",
-                "amount": "4700",
-                "icon": ""
+                "totalFee": 2500
+            },
+            "parentId": "2007",
+            "avgRatingString": "3.7",
+            "totalRatingsString": "1K+",
+            "sla": {
+                "deliveryTime": 15,
+                "lastMileTravel": 1.5,
+                "serviceability": "SERVICEABLE",
+                "slaString": "15 mins",
+                "lastMileTravelString": "1.5 km",
+                "iconType": "ICON_TYPE_EMPTY"
             },
             "availability": {
-                "opened": true,
-                "nextOpenMessage": "",
-                "nextCloseMessage": ""
+                "nextCloseTime": "2023-07-30 23:30:00",
+                "opened": true
             },
-            "longDistanceEnabled": 0,
-            "rainMode": "NONE",
-            "thirdPartyAddress": false,
-            "thirdPartyVendor": "",
-            "adTrackingID": "cid=7192624~p=19~eid=00000188-f7e0-fa93-125b-059500dc137b~srvts=1687785896595",
-            "badges": {
-                "imageBased": [],
-                "textBased": [],
-                "textExtendedBadges": []
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
             },
-            "lastMileTravelString": "4.9 kms",
-            "hasSurge": false,
             "aggregatedDiscountInfoV3": {
-                "header": "40% OFF",
-                "subHeader": "UPTO ₹80",
-                "discountTag": "",
-                "headerTypeV2": 0
+                "header": "₹125 OFF",
+                "subHeader": "ABOVE ₹199",
+                "discountTag": "FLAT DEAL"
             },
-            "sla": {
-                "restaurantId": "339520",
-                "deliveryTime": 43,
-                "minDeliveryTime": 43,
-                "maxDeliveryTime": 43,
-                "lastMileTravel": 4.900000095367432,
-                "lastMileDistance": 0,
-                "serviceability": "SERVICEABLE",
-                "rainMode": "NONE",
-                "longDistance": "NOT_LONG_DISTANCE",
-                "preferentialService": false,
-                "iconType": "EMPTY"
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
             },
-            "promoted": true,
-            "avgRating": "4.0",
-            "totalRatings": 500,
-            "new": false
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
         },
-        "subtype": "basic"
+        "analytics": {},
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/sardarji-malai-chaap-wale-jagdish-colony-rohtak-rohtak-363949",
+            "type": "WEBLINK"
+        }
     },
     {
-        "type": "restaurant",
-        "data": {
+        "info": {
+            "id": "428294",
+            "name": "Veer Ji Malai Chaap Wale",
+            "cloudinaryImageId": "m0gfann3jjzoalfs4pbi",
+            "locality": "Civil Road",
+            "areaName": "Rohtak",
+            "costForTwo": "₹250 for two",
+            "cuisines": [
+                "North Indian",
+                "Beverages"
+            ],
+            "avgRating": 3.7,
+            "feeDetails": {
+                "restaurantId": "428294",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 2500
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 2500
+            },
+            "parentId": "12056",
+            "avgRatingString": "3.7",
+            "totalRatingsString": "1K+",
+            "sla": {
+                "deliveryTime": 18,
+                "lastMileTravel": 1.5,
+                "serviceability": "SERVICEABLE",
+                "slaString": "18 mins",
+                "lastMileTravelString": "1.5 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-07-30 23:30:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
             "type": "F",
-            "id": "376054",
-            "name": "Bikaner Sweets",
-            "uuid": "517e00df-769a-44ed-9b7a-15ab2de3d87e",
-            "city": "2",
-            "area": "MG Road",
-            "totalRatingsString": "1000+ ratings",
-            "cloudinaryImageId": "yl0klkeivamtnxxkneyy",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "₹125 OFF",
+                "subHeader": "ABOVE ₹199",
+                "discountTag": "FLAT DEAL"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/veer-ji-malai-chaap-wale-civil-road-rohtak-rohtak-428294",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "460143",
+            "name": "Jodhpur Sweets",
+            "cloudinaryImageId": "ygjrfgroswtcmxaidxav",
+            "locality": "Sector 1",
+            "areaName": "Rohtak",
+            "costForTwo": "₹300 for two",
             "cuisines": [
                 "Sweets",
-                "Desserts",
                 "Snacks",
-                "Fast Food"
+                "Chaat"
             ],
-            "tags": [],
-            "costForTwo": 39900,
-            "costForTwoString": "₹399 FOR TWO",
-            "deliveryTime": 23,
-            "minDeliveryTime": 23,
-            "maxDeliveryTime": 23,
-            "slaString": "23 MINS",
-            "lastMileTravel": 2.0999999046325684,
-            "slugs": {
-                "restaurant": "bikaner-sweets-dlf-phase-4-dlf-phase-4",
-                "city": "gurgaon"
-            },
-            "cityState": "2",
-            "address": "89 Krishna Mkt Sarswate Vihar Gurgaon",
-            "locality": "Saraswati Vihar",
-            "parentId": 2654,
-            "unserviceable": false,
+            "avgRating": 3.8,
             "veg": true,
-            "select": false,
-            "favorite": false,
-            "tradeCampaignHeaders": [],
-            "chain": [],
             "feeDetails": {
+                "restaurantId": "460143",
                 "fees": [
                     {
-                        "name": "distance",
-                        "fee": 3500,
-                        "message": ""
+                        "name": "BASE_DISTANCE",
+                        "fee": 2500
                     },
                     {
-                        "name": "time",
-                        "fee": 0,
-                        "message": ""
+                        "name": "BASE_TIME"
                     },
                     {
-                        "name": "special",
-                        "fee": 0,
-                        "message": ""
+                        "name": "ANCILLARY_SURGE_FEE"
                     }
                 ],
-                "totalFees": 3500,
-                "message": "",
-                "title": "Delivery Charge",
-                "amount": "3500",
-                "icon": ""
+                "totalFee": 2500
+            },
+            "parentId": "111286",
+            "avgRatingString": "3.8",
+            "totalRatingsString": "100+",
+            "sla": {
+                "deliveryTime": 19,
+                "lastMileTravel": 3,
+                "serviceability": "SERVICEABLE",
+                "slaString": "19 mins",
+                "lastMileTravelString": "3.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
             },
             "availability": {
-                "opened": true,
-                "nextOpenMessage": "",
-                "nextCloseMessage": ""
+                "nextCloseTime": "2023-07-30 21:00:00",
+                "opened": true
             },
-            "longDistanceEnabled": 0,
-            "rainMode": "NONE",
-            "thirdPartyAddress": false,
-            "thirdPartyVendor": "",
-            "adTrackingID": "",
-            "badges": {
-                "imageBased": [],
-                "textBased": [],
-                "textExtendedBadges": []
+            "badges": {},
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
             },
-            "lastMileTravelString": "2 kms",
-            "hasSurge": false,
-            "sla": {
-                "restaurantId": "376054",
-                "deliveryTime": 23,
-                "minDeliveryTime": 23,
-                "maxDeliveryTime": 23,
-                "lastMileTravel": 2.0999999046325684,
-                "lastMileDistance": 0,
-                "serviceability": "SERVICEABLE",
-                "rainMode": "NONE",
-                "longDistance": "NOT_LONG_DISTANCE",
-                "preferentialService": false,
-                "iconType": "EMPTY"
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
             },
-            "promoted": false,
-            "avgRating": "4.1",
-            "totalRatings": 1000,
-            "new": false
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
         },
-        "subtype": "basic"
+        "analytics": {},
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/jodhpur-sweets-sector-1-rohtak-rohtak-460143",
+            "type": "WEBLINK"
+        }
     },
     {
-        "type": "restaurant",
-        "data": {
-            "type": "F",
-            "id": "314188",
-            "name": "The Ladakhi Kitchen",
-            "uuid": "49aec52d-06a3-479a-8607-a485f4044647",
-            "city": "2",
-            "area": "DLF Phase 4",
-            "totalRatingsString": "1000+ ratings",
-            "cloudinaryImageId": "gnlixqspz4ec8fjpbnnc",
+        "info": {
+            "id": "364941",
+            "name": "The Biryani Life",
+            "cloudinaryImageId": "eysnlm254vmzhcbxdtlo",
+            "locality": "Rohtak Road",
+            "areaName": "Rohtak",
+            "costForTwo": "₹250 for two",
             "cuisines": [
-                "Chinese",
-                "Tibetan"
+                "Biryani",
+                "Mughlai",
+                "Lucknowi",
+                "Hyderabadi",
+                "Kebabs",
+                "Desserts",
+                "Beverages"
             ],
-            "tags": [],
-            "costForTwo": 40000,
-            "costForTwoString": "₹400 FOR TWO",
-            "deliveryTime": 32,
-            "minDeliveryTime": 32,
-            "maxDeliveryTime": 32,
-            "slaString": "32 MINS",
-            "lastMileTravel": 1.2000000476837158,
-            "slugs": {
-                "restaurant": "the-ladakhi-kitchen-dlf-phase-4-dlf-phase-4",
-                "city": "gurgaon"
-            },
-            "cityState": "2",
-            "address": "A 218, Supermarket 1, DLF Phase 4, Gurgaon",
-            "locality": "Supermart 1",
-            "parentId": 14525,
-            "unserviceable": false,
-            "veg": false,
-            "select": false,
-            "favorite": false,
-            "tradeCampaignHeaders": [],
-            "ribbon": [
-                {
-                    "type": "PROMOTED"
-                }
-            ],
-            "chain": [],
+            "avgRating": 4.1,
             "feeDetails": {
+                "restaurantId": "364941",
                 "fees": [
                     {
-                        "name": "distance",
-                        "fee": 3500,
-                        "message": ""
+                        "name": "BASE_DISTANCE",
+                        "fee": 2500
                     },
                     {
-                        "name": "time",
-                        "fee": 0,
-                        "message": ""
+                        "name": "BASE_TIME"
                     },
                     {
-                        "name": "special",
-                        "fee": 0,
-                        "message": ""
+                        "name": "ANCILLARY_SURGE_FEE"
                     }
                 ],
-                "totalFees": 3500,
-                "message": "",
-                "title": "Delivery Charge",
-                "amount": "3500",
-                "icon": ""
+                "totalFee": 2500
+            },
+            "parentId": "8496",
+            "avgRatingString": "4.1",
+            "totalRatingsString": "100+",
+            "sla": {
+                "deliveryTime": 17,
+                "lastMileTravel": 0.8,
+                "serviceability": "SERVICEABLE",
+                "slaString": "17 mins",
+                "lastMileTravelString": "0.8 km",
+                "iconType": "ICON_TYPE_EMPTY"
             },
             "availability": {
-                "opened": true,
-                "nextOpenMessage": "",
-                "nextCloseMessage": ""
+                "nextCloseTime": "2023-07-30 23:59:00",
+                "opened": true
             },
-            "longDistanceEnabled": 0,
-            "rainMode": "NONE",
-            "thirdPartyAddress": false,
-            "thirdPartyVendor": "",
-            "adTrackingID": "cid=7192302~p=22~eid=00000188-f7e0-fa93-125b-059600dc167e~srvts=1687785896595",
-            "badges": {
-                "imageBased": [],
-                "textBased": [],
-                "textExtendedBadges": []
+            "badges": {},
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
             },
-            "lastMileTravelString": "1.2 kms",
-            "hasSurge": false,
-            "aggregatedDiscountInfoV3": {
-                "header": "₹125 OFF",
-                "subHeader": "ABOVE ₹249",
-                "discountTag": "FLAT DEAL",
-                "headerTypeV2": 0
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
             },
-            "sla": {
-                "restaurantId": "314188",
-                "deliveryTime": 32,
-                "minDeliveryTime": 32,
-                "maxDeliveryTime": 32,
-                "lastMileTravel": 1.2000000476837158,
-                "lastMileDistance": 0,
-                "serviceability": "SERVICEABLE",
-                "rainMode": "NONE",
-                "longDistance": "NOT_LONG_DISTANCE",
-                "preferentialService": false,
-                "iconType": "EMPTY"
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
             },
-            "promoted": true,
-            "avgRating": "4.2",
-            "totalRatings": 1000,
-            "new": false
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
         },
-        "subtype": "basic"
+        "analytics": {},
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/the-biryani-life-road-rohtak-rohtak-364941",
+            "type": "WEBLINK"
+        }
+    },
+    {
+        "info": {
+            "id": "440779",
+            "name": "Moti Mahal Delux",
+            "cloudinaryImageId": "525d9033161475701b4b45c45b10ace2",
+            "locality": "Dev Colony",
+            "areaName": "Main Tilak Nagar Rd",
+            "costForTwo": "₹300 for two",
+            "cuisines": [
+                "Indian",
+                "Chinese"
+            ],
+            "avgRating": 3.8,
+            "feeDetails": {
+                "restaurantId": "440779",
+                "fees": [
+                    {
+                        "name": "BASE_DISTANCE",
+                        "fee": 2500
+                    },
+                    {
+                        "name": "BASE_TIME"
+                    },
+                    {
+                        "name": "ANCILLARY_SURGE_FEE"
+                    }
+                ],
+                "totalFee": 2500
+            },
+            "parentId": "2113",
+            "avgRatingString": "3.8",
+            "totalRatingsString": "100+",
+            "sla": {
+                "deliveryTime": 23,
+                "lastMileTravel": 2,
+                "serviceability": "SERVICEABLE",
+                "slaString": "23 mins",
+                "lastMileTravelString": "2.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2023-07-30 23:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "50% OFF",
+                "subHeader": "UPTO ₹100"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {},
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/moti-mahal-delux-dev-colony-main-tilak-nagar-rd-rohtak-440779",
+            "type": "WEBLINK"
+        }
     }
 ]
 
